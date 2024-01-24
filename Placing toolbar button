@@ -1,0 +1,19 @@
+struct ContentView: View {
+    
+    var body: some View {
+        NavigationStack {
+            Text("Hello world")
+                .toolbar {
+                    ToolbarItemGroup(placement: .navigationBarLeading) {
+                        Button("Tap Me") {
+                            // button action
+                        }
+                        
+                        Button("Or Tap Me") {
+                            // button action
+                        }
+                    }
+                }
+        }
+    }
+}
